@@ -1,6 +1,5 @@
 use debug::PrintTrait;
 
-// Drugi tip podpograma bi trebalo da proveri ispunjenost nekog algebarskog uslova (da li je ulaz1 veci za 10% od drugog ulaza).
 fn is_10_percent_greater(a: u64, b: u64) -> bool {
     a > (b + (b * 10 / 100))
 }
